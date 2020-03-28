@@ -1,6 +1,6 @@
 package com.datastructure.tree;
 
-public class Tree {
+public class BinarySearchTree {
     private TreeNode root;
 
     public void insert(int dataToInsert) {
