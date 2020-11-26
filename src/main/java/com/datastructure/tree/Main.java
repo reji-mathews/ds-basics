@@ -15,13 +15,14 @@ public class Main {
         System.out.println("Done insertion");
 
         System.out.println("In-Order traversal");
-        binarySearchTree.traverseInOrder();
+        InOrder.inOrder(binarySearchTree.getRoot());
+        /*binarySearchTree.traverseInOrder();
 
         System.out.println("\n Pre-Order traversal");
         binarySearchTree.traversePreOrder();
 
         System.out.println("\nPost-Order traversal");
-        binarySearchTree.traversePostOrder();
+        binarySearchTree.traversePostOrder();*/
 
     }
 }
